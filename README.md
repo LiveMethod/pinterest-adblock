@@ -1,0 +1,2 @@
+# pinterest-adblock
+Detoxifying pinterest
