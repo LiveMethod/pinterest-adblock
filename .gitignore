@@ -1,0 +1,4 @@
+# Permissions file for updates
+*.pem
+
+.DS_Store

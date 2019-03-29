@@ -1,0 +1,24 @@
+{
+  "name": "Pinterest-Detox",
+  "version": "1.0",
+  "description": "Quietly removes content for promoted pins, leaving only soft blocks of color.",
+  "manifest_version": 2,
+  "author": "https://github.com/LiveMethod/",
+  "homepage_url": "https://github.com/LiveMethod/pinterest-adblock",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://pinterest.com/",
+        "*://*.pinterest.com/",
+        "*://pinterest.com/*",
+        "*://*.pinterest.com/*"
+      ],
+      "js": ["detox.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
