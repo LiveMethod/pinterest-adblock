@@ -10,7 +10,7 @@ The blank blocks in this screenshot would have been advertisements
 1) Download the folder
 ![Download](img/install-download.jpg)
 
-2) Go to [chrome://extensions/](chrome://extensions/) and check the box for Developer mode in the top right.
+2) Visit `chrome://extensions/` in your URL bar and check the box for Developer mode in the top right.
 ![Toggle](img/install-switch.jpg)
 
 3) Select "Load unpacked extension"
