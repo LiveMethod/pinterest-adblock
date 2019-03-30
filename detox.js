@@ -1,8 +1,12 @@
 //---------------------------
+// TODO
+//---------------------------
+
+//---------------------------
 // CONFIG
 //---------------------------
 
-var shouldLog = true;
+var shouldLog = false;
 
 var gridItemSelector = '[data-grid-item="true"]';
 

@@ -5,6 +5,10 @@
   "manifest_version": 2,
   "author": "https://github.com/LiveMethod/",
   "homepage_url": "https://github.com/LiveMethod/pinterest-adblock",
+  "permissions": [
+    "tabs",
+    "webNavigation"
+  ],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
